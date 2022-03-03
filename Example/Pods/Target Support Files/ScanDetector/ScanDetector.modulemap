@@ -1,0 +1,6 @@
+framework module ScanDetector {
+  umbrella header "ScanDetector-umbrella.h"
+
+  export *
+  module * { export * }
+}

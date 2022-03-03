@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'ScanDetector'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ScanDetector.'
+  s.summary          = '通过手机摄像头自动识别检测画面中物体的边缘四边形区域'
+  s.swift_version    = '5.5.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  通过手机摄像头自动识别检测画面中物体的边缘四边形区域，可实现界面高度自定义，陆续提供图片拍照，编辑等功能。
                        DESC
 
   s.homepage         = 'https://github.com/Jack-1202/ScanDetector'
@@ -28,7 +29,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Jack-1202/ScanDetector.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ScanDetector/Classes/**/*'
   

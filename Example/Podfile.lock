@@ -1,0 +1,16 @@
+PODS:
+  - ScanDetector (0.1.0)
+
+DEPENDENCIES:
+  - ScanDetector (from `../`)
+
+EXTERNAL SOURCES:
+  ScanDetector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScanDetector: 7e7f6362b622efc5eb49aaac3941336e78230c8e
+
+PODFILE CHECKSUM: 3e785cd8684efe54447c06e3afc14bbbac6e89a9
+
+COCOAPODS: 1.11.2
